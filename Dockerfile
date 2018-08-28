@@ -11,6 +11,7 @@ RUN apt-get update -qqy && apt-get install -qqy \
         lsb-release \
         openssh-client \
         git \
+        kubectl \
     && easy_install -U pip && \
     pip install -U crcmod && \
     export CLOUD_SDK_REPO="cloud-sdk-$(lsb_release -c -s)" && \
