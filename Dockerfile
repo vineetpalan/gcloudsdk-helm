@@ -9,6 +9,7 @@ RUN apt-get update -qqy && apt-get install -qqy \
         python-setuptools \
         apt-transport-https \
         lsb-release \
+        vim \
         openssh-client \
         git \
     && easy_install -U pip && \
