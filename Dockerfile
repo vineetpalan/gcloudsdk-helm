@@ -12,6 +12,7 @@ RUN apt-get -qqy update && apt-get install -qqy \
         apt-transport-https \
         lsb-release \
         openssh-client \
+        vim \
         git \
     && easy_install -U pip && \
     pip install -U crcmod   && \
